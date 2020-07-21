@@ -26,3 +26,8 @@ arr[((counter++))]=$valTwo
 arr[((counter++))]=$valThree
 arr[((counter++))]=$valFour
 echo ${arr[@]}
+
+for i in ${arr[@]}
+do
+	echo "Descending order : $i"
+done | sort -nr
