@@ -10,3 +10,6 @@ valTwo=$(( $a*$b+$c ))
 echo $valTwo
 valThree=$(( $c+$a/$b ))
 echo $valThree
+valFour=$(( $a%$b+$c ))
+echo $valFour
+
