@@ -13,3 +13,9 @@ echo $valThree
 valFour=$(( $a%$b+$c ))
 echo $valFour
 
+declare -A sortin
+sortin[key1]=$valOne
+sortin[key2]=$valTwo
+sortin[key3]=$valThree
+sortin[key4]=$valFour
+echo ${sortin[@]}
