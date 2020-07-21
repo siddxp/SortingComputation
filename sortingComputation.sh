@@ -6,3 +6,5 @@ echo $a $b $c
 
 valOne=$(( $a+$b*$c ))
 echo $valOne
+valTwo=$(( $a*$b+$c ))
+echo $valTwo
