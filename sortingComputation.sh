@@ -19,3 +19,10 @@ sortin[key2]=$valTwo
 sortin[key3]=$valThree
 sortin[key4]=$valFour
 echo ${sortin[@]}
+
+counter=0
+arr[((counter++))]=$valOne
+arr[((counter++))]=$valTwo
+arr[((counter++))]=$valThree
+arr[((counter++))]=$valFour
+echo ${arr[@]}
