@@ -31,3 +31,8 @@ for i in ${arr[@]}
 do
 	echo "Descending order : $i"
 done | sort -nr
+
+for i in ${arr[@]}
+do
+	echo "Ascending order : $i"
+done | sort -n
