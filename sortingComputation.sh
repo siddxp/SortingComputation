@@ -8,3 +8,5 @@ valOne=$(( $a+$b*$c ))
 echo $valOne
 valTwo=$(( $a*$b+$c ))
 echo $valTwo
+valThree=$(( $c+$a/$b ))
+echo $valThree
